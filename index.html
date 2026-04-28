@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tran Phuoc Cuong — Software Engineer, Full-stack Developer" />
+  <title>Tran Phuoc Cuong | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@300;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="#hero" class="logo kinetic-hover">TPC</a>
+    <button type="button" class="nav-toggle" aria-label="Mở menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav">
+      <a href="#about">Giới thiệu</a>
+      <a href="#experience">Kinh nghiệm</a>
+      <a href="#stack">Tech Stack</a>
+      <a href="#projects">Dự án</a>
+      <a href="#education">Học vấn</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div id="hero-canvas" class="hero-canvas" aria-hidden="true"></div>
+      <div class="hero-inner reveal">
+        <p class="hero-eyebrow">
+          <span class="dot-pulse"></span> Software Engineer · Full-stack
+        </p>
+        <h1 class="hero-title">
+          <span class="kinetic-name" data-text="Tran Phuoc Cuong">Tran Phuoc Cuong</span>
+        </h1>
+        <p class="hero-tagline">
+          Xây dựng sản phẩm web hiệu năng, học không ngừng và chia sẻ kiến thức —
+          <strong>Vue / React · Python · Cloud</strong>
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary glow-hover">Xem dự án</a>
+          <a href="#contact" class="btn btn-ghost">Liên hệ</a>
+        </div>
+        <div class="hero-lottie" aria-hidden="true">
+          <lottie-player
+            src="https://assets2.lottiefiles.com/packages/lf20_jtbfg2nb.json"
+            background="transparent"
+            speed="1"
+            style="width: 120px; height: 120px"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-tag">01 · Giới thiệu</span>
+          <h2>Về tôi</h2>
+        </header>
+        <div class="about-grid reveal">
+          <div class="about-card glass">
+            <p>
+              Hơn <strong>4 năm</strong> tham gia phát triển phần mềm — đam mê công nghệ,
+              tự học và không ngừng cập nhật stack mới. Thích giải quyết bài toán phức tạp,
+              cải thiện chất lượng code và phối hợp nhóm hiệu quả.
+            </p>
+            <ul class="about-meta">
+              <li><span>Ngày sinh</span> 19/01/1994</li>
+              <li><span>Mục tiêu</span> Full-stack Developer chuyên nghiệp</li>
+            </ul>
+          </div>
+          <div class="about-highlights glass">
+            <div class="highlight">
+              <span class="highlight-num">4+</span>
+              <span class="highlight-label">Năm kinh nghiệm dự án</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-num">EN</span>
+              <span class="highlight-label">Đọc/viết & giao tiếp cơ bản</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-tag">02 · Lịch sử công việc</span>
+          <h2>Kinh nghiệm</h2>
+        </header>
+        <ol class="timeline reveal">
+          <li class="timeline-item">
+            <span class="timeline-date">2025/04 — Nay</span>
+            <div class="timeline-body glass">
+              <h3>Software Engineer</h3>
+              <p class="timeline-company">Techzen Co., Ltd</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-date">2024/02 — 2025/03</span>
+            <div class="timeline-body glass">
+              <h3>Software Engineer</h3>
+              <p class="timeline-company">Picon Technology Co., Ltd</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-date">2021/01 — 2024/01</span>
+            <div class="timeline-body glass">
+              <h3>Software Engineer</h3>
+              <p class="timeline-company">Hybrid Technologies Co., Ltd</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-date">2016/11 — 2018/01</span>
+            <div class="timeline-body glass">
+              <h3>Software Engineer</h3>
+              <p class="timeline-company">Lung Vang Co., Ltd</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="stack" class="section stack">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-tag">03 · Công nghệ</span>
+          <h2>Tech Stack</h2>
+          <p class="section-lead">Di chuột để xem gợi ý — nhóm theo frontend, backend & công cụ.</p>
+        </header>
+        <div class="stack-groups reveal">
+          <div class="stack-group glass">
+            <h3>Frontend</h3>
+            <div class="stack-chips">
+              <button type="button" class="tech-chip" data-hint="Template: Pug, HandleBars">HTML</button>
+              <button type="button" class="tech-chip" data-hint="SCSS/SASS, Tailwind">CSS</button>
+              <button type="button" class="tech-chip" data-hint="Vue 2–3, Nuxt 2–3">Vue.js</button>
+              <button type="button" class="tech-chip" data-hint="Next.js 12–14, MUI, Ant Design">React</button>
+              <button type="button" class="tech-chip" data-hint="Type-safe UI">TypeScript</button>
+              <button type="button" class="tech-chip" data-hint="NuxtJS, PWA">NuxtJS</button>
+            </div>
+          </div>
+          <div class="stack-group glass">
+            <h3>Backend & Data</h3>
+            <div class="stack-chips">
+              <button type="button" class="tech-chip" data-hint="API hiệu năng cao">Python</button>
+              <button type="button" class="tech-chip" data-hint="FastAPI">FastAPI</button>
+              <button type="button" class="tech-chip" data-hint="Web framework">Django</button>
+              <button type="button" class="tech-chip" data-hint="Laravel">PHP</button>
+              <button type="button" class="tech-chip" data-hint="Services & APIs">Golang</button>
+              <button type="button" class="tech-chip" data-hint="Primary DB">PostgreSQL</button>
+              <button type="button" class="tech-chip" data-hint="Document store">MongoDB</button>
+            </div>
+          </div>
+          <div class="stack-group glass">
+            <h3>Cloud & Tools</h3>
+            <div class="stack-chips">
+              <button type="button" class="tech-chip" data-hint="AWS">AWS</button>
+              <button type="button" class="tech-chip" data-hint="Google Cloud">GCP</button>
+              <button type="button" class="tech-chip" data-hint="Azure">Azure</button>
+              <button type="button" class="tech-chip" data-hint="Containerization">Docker</button>
+              <button type="button" class="tech-chip" data-hint="GitLab, GitHub">Git</button>
+              <button type="button" class="tech-chip" data-hint="VS Code, PyCharm">IDE</button>
+            </div>
+          </div>
+        </div>
+        <output class="stack-hint reveal" id="stack-hint">Chọn một tag để xem chi tiết</output>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-tag">04 · Portfolio</span>
+          <h2>Dự án tiêu biểu</h2>
+        </header>
+        <div class="project-grid">
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual--a" aria-hidden="true"></div>
+            <div class="project-body">
+              <span class="project-date">2025/11 — Nay</span>
+              <h3>Techkan</h3>
+              <p>Hệ thống Kanban quản lý tác vụ — Team lead, code review, báo cáo tiến độ.</p>
+              <ul class="project-tags">
+                <li>FastAPI</li><li>Vue</li><li>PostgreSQL</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual--b" aria-hidden="true"></div>
+            <div class="project-body">
+              <span class="project-date">2025/04 — 2025/10</span>
+              <h3>Deet</h3>
+              <p>PWA hẹn hò tự động ghép cặp — Laravel, NuxtJS, nhóm 14 người.</p>
+              <ul class="project-tags">
+                <li>Laravel</li><li>NuxtJS</li><li>PostgreSQL</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual--c" aria-hidden="true"></div>
+            <div class="project-body">
+              <span class="project-date">2024/03 — 2024/05</span>
+              <h3>Search Engine (Bidding)</h3>
+              <p>Nền tảng hỗ trợ đấu thầu công — tìm kiếm thông tin từ cơ quan Nhật Bản.</p>
+              <ul class="project-tags">
+                <li>FastAPI</li><li>Next.js</li><li>Laravel</li><li>React</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual--d" aria-hidden="true"></div>
+            <div class="project-body">
+              <span class="project-date">2023/03 — 2024/01</span>
+              <h3>Job Search-20 (Mynavi)</h3>
+              <p>Tuyển dụng cho cử nhân có kinh nghiệm — UI theo Figma, Next.js & Golang.</p>
+              <ul class="project-tags">
+                <li>Next.js</li><li>Golang</li><li>React</li><li>WordPress</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual--e" aria-hidden="true"></div>
+            <div class="project-body">
+              <span class="project-date">2024/06 — 2024/09</span>
+              <h3>TMPCO2</h3>
+              <p>Trực quan hóa phí vận tải & CO₂ — biểu đồ tương tác, mô phỏng dữ liệu.</p>
+              <ul class="project-tags">
+                <li>FastAPI</li><li>NuxtJS</li><li>MongoDB</li><li>PostgreSQL</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual--f" aria-hidden="true"></div>
+            <div class="project-body">
+              <span class="project-date">2022/03 — 2023/03</span>
+              <h3>Cloudfunding</h3>
+              <p>Kết nối nhà gọi vốn & nhà đầu tư — UI theo Figma, FastAPI & Nuxt.</p>
+              <ul class="project-tags">
+                <li>FastAPI</li><li>NuxtJS</li><li>Vue</li><li>PostgreSQL</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual--g" aria-hidden="true"></div>
+            <div class="project-body">
+              <span class="project-date">2021/02 — 2021/04</span>
+              <h3>Datafluct AutoML</h3>
+              <p>AutoML đa nền tảng đám mây — AWS, GCP, Azure; Django & Vue.</p>
+              <ul class="project-tags">
+                <li>Django</li><li>Vue.js</li><li>AWS</li><li>GCP</li><li>Azure</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual--h" aria-hidden="true"></div>
+            <div class="project-body">
+              <span class="project-date">2016/12 — 2017/12</span>
+              <h3>VNHomnay</h3>
+              <p>Tin tức cộng đồng — điều tra, đa phương tiện, bình luận.</p>
+              <ul class="project-tags">
+                <li>HTML</li><li>CSS</li><li>Sass</li><li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-tag">05 · Học vấn</span>
+          <h2>Đào tạo</h2>
+        </header>
+        <div class="edu-card glass reveal">
+          <h3>Đại học Đông Á</h3>
+          <p class="edu-major">Công nghệ thông tin</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-tag">06 · Liên hệ</span>
+          <h2>Kết nối</h2>
+        </header>
+        <div class="contact-grid reveal">
+          <form class="contact-form glass" id="contact-form">
+            <label>
+              Họ tên
+              <input type="text" name="name" placeholder="Nguyễn Văn A" autocomplete="name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" autocomplete="email" />
+            </label>
+            <label>
+              Nội dung
+              <textarea name="message" rows="4" placeholder="Nội dung tin nhắn..."></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary glow-hover">Gửi tin nhắn</button>
+            <p class="form-note" id="form-note" hidden>Đây là demo front-end — hãy kết nối qua mạng xã hội bên cạnh.</p>
+          </form>
+          <div class="contact-side">
+            <p class="contact-lead">Social — hiệu ứng hover neon</p>
+            <div class="social-row">
+              <a href="https://github.com" class="social-btn glow-hover" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <span>GitHub</span>
+              </a>
+              <a href="https://linkedin.com" class="social-btn glow-hover" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <span>LinkedIn</span>
+              </a>
+            </div>
+            <div class="contact-lottie" aria-hidden="true">
+              <lottie-player
+                src="https://assets9.lottiefiles.com/packages/lf20_M9p23l.json"
+                background="transparent"
+                speed="0.9"
+                style="width: 160px; height: 160px"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Tran Phuoc Cuong. Built with HTML · CSS · JS · Three.js</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.4/dist/lottie-player.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
